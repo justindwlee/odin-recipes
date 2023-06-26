@@ -6,23 +6,37 @@
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <img class="food-image" src="https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_1280.jpg" alt="Table of food">
+        <div class="container">
+            <h1>Odin Recipes</h1>
+            <img class="food-image" src="https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_1280.jpg" alt="Table of food">
 
-        <h2>Menus</h2>
-        <div id="menu-bar">
-            <img class="food-image menu" src="https://www.allrecipes.com/thmb/xYu9Ii8paEyMcJy7sv2mYxwfd7Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/hawaiian-pizza-ddmfs-3x2-132-450eff04ad924d9a9eae98ca44e3f988.jpg" alt="Delicious Hawaiian Pizza">
-            <img class="food-image menu" src="https://www.allrecipes.com/thmb/mFb9dxtBe8tXCQVE4pRu7eC4Jo8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4562521-ab0d8333910d4af58df964b62d33e756.jpg" alt="Delicious Peanut Butter Noodles!">
-            <img class="food-image menu" src="https://www.allrecipes.com/thmb/Pyf_v4pECnDZSJoMJnXqHoS4fO0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1067024-1347a6e216a04c358cd926c96dd67272.jpg" alt="Delicious Peanut Butter Noodles!">
+            <h2>Menus</h2>
+            <div id="menu-bar">
+                <div class="menu">
+                    <div>
+                        <img class="food-image" src="https://www.allrecipes.com/thmb/xYu9Ii8paEyMcJy7sv2mYxwfd7Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/hawaiian-pizza-ddmfs-3x2-132-450eff04ad924d9a9eae98ca44e3f988.jpg" alt="Delicious Hawaiian Pizza">
+                    </div>
+                    <div>
+                        <button onclick="window.location.href='recipes/hawaiianPizza.html';">Hawaiian Pizza</button>
+                        
+                    </div>          
+                </div>
+                <div class="menu">
+                    <div><img class="food-image" src="https://www.allrecipes.com/thmb/mFb9dxtBe8tXCQVE4pRu7eC4Jo8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4562521-ab0d8333910d4af58df964b62d33e756.jpg" alt="Delicious Peanut Butter Noodles!"></div>
+                    <div>
+                        <button onclick="window.location.href='./recipes/peanutbutterNoodles.html';">Peanut Butter Noodles</button>  
+                    </div>
+                  
+                    
+                </div>
+                <div class="menu">
+                    <div> <img class="food-image" src="https://www.allrecipes.com/thmb/Pyf_v4pECnDZSJoMJnXqHoS4fO0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1067024-1347a6e216a04c358cd926c96dd67272.jpg" alt="Delicious Peanut Butter Noodles!"></div>
+                    <div>
+                        <button onclick="window.location.href='./recipes/appleChips.html';">Apple Chips</button>  
+                    </div>   
+                </div>
+            <span><a href="./index.html">Go to the top</a></span>
         </div>
-        <ul class="recipe-list">
-            <li><a class="link" href="./recipes/hawaiianPizza.html">Hawaiian Pizza</a>
-            </li>
-            <li><a class="link" href="./recipes/peanutbutterNoodles.html">Peanut Butter Noodle</a></li>
-            <li><a class="link" href="./recipes/appleChips.html">Apple Chips</a></li>
-        </ul>
-
-        <span><a href="./index.html">Go to the top</a></span>
     </body>
 </html>
 
